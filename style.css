@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 720px);
+  padding-right: calc(50% - 720px);
+}
+
+body {
+  background-image: url(images/back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Montserrat;
+}
+
+.top {
+  height: 1024px;
+}
+.top_title {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 788.778px;
+  height: 125.007px;
+  padding-top: 217px;
+  padding-left: 120px;
+}
+.top_discription {
+  width: 481px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 177.778% */
+  padding-top: 32px;
+  padding-left: 120px;
+}
+.top_discription_fat {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.top_button {
+  border-radius: 30px;
+  background: #9C0332;
+  border: 1px solid #9C0332;
+  width: 234.063px;
+  height: 48.603px;
+  margin-top: 44px;
+  margin-left: 120px;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.game {
+  height: 556px;
+  display: flex;
+  gap: 32px;
+  margin-left: 120px;
+  margin-top: 120px;
+}
+.game_item1 {
+  background-image: url(images/game1.jpg);
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+.game_item2 {
+  background-image: url(images/game2.jpg);
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+.game_item3 {
+  background-image: url(images/game3.jpg);
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+.game_name {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  padding-top: 236px;
+  padding-left: 32px;
+}/*# sourceMappingURL=style.css.map */
