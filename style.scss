@@ -9,8 +9,7 @@
 }  
 
 body{
-    
-    font-family: Montserrat;
+     font-family: Montserrat;
 }
 
 .top{
@@ -81,7 +80,11 @@ body{
         position: relative;
         height: 300px;
         flex-shrink: 0;
-        padding-bottom: 128px;
+        margin-bottom: 128px;
+    }
+    &_content:hover{
+        border-radius: 16px;
+        border: 3px solid #44D2FF;
     }
     &_name{
         position: absolute;

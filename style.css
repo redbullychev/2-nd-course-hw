@@ -81,7 +81,11 @@ body {
   position: relative;
   height: 300px;
   flex-shrink: 0;
-  padding-bottom: 128px;
+  margin-bottom: 128px;
+}
+.game_content:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
 }
 .game_name {
   position: absolute;
