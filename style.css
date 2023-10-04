@@ -25,7 +25,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  width: 788.778px;
+  width: 700px;
   height: 125.007px;
   padding-top: 217px;
   padding-left: 120px;
@@ -33,6 +33,7 @@ body {
 .top_discription {
   width: 481px;
   color: #FFF;
+  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
@@ -61,6 +62,11 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.top_button_link {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+}
 
 .game {
   height: 556px;
@@ -69,33 +75,19 @@ body {
   margin-left: 120px;
   margin-top: 120px;
 }
-.game_item1 {
-  background-image: url(images/game1.jpg);
+.game_content {
+  position: relative;
   width: 379px;
   height: 300px;
   flex-shrink: 0;
-  border-radius: 16px;
-}
-.game_item2 {
-  background-image: url(images/game2.jpg);
-  width: 379px;
-  height: 300px;
-  flex-shrink: 0;
-  border-radius: 16px;
-}
-.game_item3 {
-  background-image: url(images/game3.jpg);
-  width: 379px;
-  height: 300px;
-  flex-shrink: 0;
-  border-radius: 16px;
 }
 .game_name {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
   color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 32px; /* 133.333% */
-  padding-top: 236px;
-  padding-left: 32px;
 }/*# sourceMappingURL=style.css.map */
