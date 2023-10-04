@@ -9,14 +9,15 @@
 }  
 
 body{
-    background-image: url(images/back.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
     font-family: Montserrat;
 }
 
 .top{
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 1024px;
     &_title{
         color: #FFF;
@@ -69,21 +70,22 @@ body{
 }
 
 .game{
-    height: 556px;
+    background: #000915;
+    height: 100%;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
-    margin-left: 120px;
-    margin-top: 120px;
-    
     &_content{
+        margin-top: 128px;
         position: relative;
-        width: 379px;
         height: 300px;
         flex-shrink: 0;
+        padding-bottom: 128px;
     }
     &_name{
         position: absolute;
-        bottom: 32px;
+        bottom: 160px;
         left: 32px;
         color: #FFF;
         font-size: 24px;
