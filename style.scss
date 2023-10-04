@@ -76,6 +76,7 @@ body{
     flex-wrap: wrap;
     gap: 32px;
     &_content{
+        border: 3px solid #000915;
         margin-top: 128px;
         position: relative;
         height: 300px;
