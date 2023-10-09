@@ -26,14 +26,14 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  width: 700px;
   height: 125.007px;
   padding-top: 217px;
   padding-left: 120px;
+  width: 788px;
 }
 .top_discription {
-  width: 481px;
   color: #FFF;
+  width: 481px;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -82,6 +82,7 @@ body {
   margin-top: 128px;
   position: relative;
   height: 300px;
+  width: 379px;
   flex-shrink: 0;
   margin-bottom: 128px;
 }
@@ -98,4 +99,66 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 32px; /* 133.333% */
+}
+
+@media (max-width: 375px) {
+  .top {
+    height: 735px;
+  }
+  .top_title {
+    display: flex;
+    width: 343px;
+    height: 77.436px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 16px;
+    padding-top: 238px;
+  }
+  .top_discription {
+    width: 343px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+    padding-left: 16px;
+  }
+  .top_discription_fat {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  .top_button {
+    margin-left: 70px;
+    margin-bottom: 238px;
+  }
+  .game {
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 127px;
+  }
+  .game_content {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .game_image {
+    width: 343px;
+    height: 300px;
+    flex-shrink: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

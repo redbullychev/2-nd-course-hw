@@ -25,14 +25,14 @@ body{
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        width: 700px;
         height: 125.007px;
         padding-top: 217px;
         padding-left: 120px;
+        width: 788px;
     }
     &_discription{
-        width: 481px;
         color: #FFF;
+        width: 481px;
         font-family: Montserrat;
         font-size: 18px;
         font-style: normal;
@@ -81,6 +81,7 @@ body{
         margin-top: 128px;
         position: relative;
         height: 300px;
+        width: 379px;
         flex-shrink: 0;
         margin-bottom: 128px;
     }
@@ -99,3 +100,5 @@ body{
         line-height: 32px; /* 133.333% */
     }
 }
+
+@import 'mobile';
