@@ -1,0 +1,75 @@
+@media (max-width: 700px){
+.top{
+    background-image: url(images/mback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+}
+@media (max-width: 920px) {
+.top{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 735px;
+    &_title{
+        display: flex;
+        width: 343px;
+        height: 77.436px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 16px;
+        padding-top: 238px;
+    }
+    &_discription{
+        width: 343px;
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px; /* 157.143% */
+        padding-left: 16px;
+        &_fat{
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+        }
+    }
+    &_button{
+        margin-left: 0px;
+        margin-bottom: 238px;
+    }
+}
+.game{
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 127px;
+    &_content{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 343px;
+        height: 300px;
+    }
+    &_image{
+        width: 343px;
+        height: 300px;
+        flex-shrink: 0;
+    }
+}
+}
