@@ -109,9 +109,12 @@ body{
 }
 
 .seasons{
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     height: 800px;
+    padding-top: 233px;
+    row-gap: 16px;
     &_text{
         display: flex;
         flex-direction: column;
@@ -124,7 +127,6 @@ body{
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            padding-top: 282px;
         }
         &_discription{
             color: #FFF;
@@ -156,9 +158,65 @@ body{
         }
     }
     &_image{
-        padding-top: 233px;
+        padding-top: 3px;
         padding-left: 135px;
         padding-bottom: 64px
+    }
+}
+
+.words{
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    row-gap: 16px;
+    padding-top: 239px;
+    padding-bottom: 239px;
+    &_image{ 
+        padding-left: 120px;
+    }
+    &_text{
+        width: 588px;
+        padding-left: 135px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 43px;
+        &_title{
+            color: #FFF;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_discription{
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px; /* 177.778% */
+        }
+        &_button{
+            border-radius: 30px;
+            background: #9C0332;
+            border: 1px solid #9C0332;
+            width: 234.063px;
+            height: 48.603px;
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            &_link{
+                color: #FFF;
+                text-decoration: none;
+                height: 48.603px;
+                cursor: url("images/cours.svg"), auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }    
     }
 }
 
