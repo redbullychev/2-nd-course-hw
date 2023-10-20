@@ -62,15 +62,15 @@ body{
         font-weight: 400;
         line-height: normal;
         &_link{
-            display: block;
             color: #FFF;
             text-decoration: none;
+            height: 48.603px;
+            cursor: url("images/cours.svg"), auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-    }
-    &_button:hover{
-        border-radius: 30px;
-        border: 3px solid #44D2FF;
-    }
+}
 }
 
 .game{
@@ -102,6 +102,63 @@ body{
         font-style: normal;
         font-weight: 600;
         line-height: 32px; /* 133.333% */
+    }
+    &_image{
+        cursor: url("images/cours.svg"), auto;
+    }
+}
+
+.seasons{
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    &_text{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        width: 584px;
+        padding-left: 120px;
+        &_title{
+            color: #FFF;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-top: 282px;
+        }
+        &_discription{
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px; /* 177.778% */
+        }
+        &_button{
+            border-radius: 30px;
+            background: #9C0332;
+            border: 1px solid #9C0332;
+            width: 234.063px;
+            height: 48.603px;
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            &_link{
+                color: #FFF;
+                text-decoration: none;
+                height: 48.603px;
+                cursor: url("images/cours.svg"), auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    &_image{
+        padding-top: 233px;
+        padding-left: 135px;
+        padding-bottom: 64px
     }
 }
 
