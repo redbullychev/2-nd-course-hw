@@ -52,9 +52,7 @@ if (search) {
 
 // Задание 8 
 let str = 'abcdef';
-str = str.split('');
-str = str.reverse();
-str = str.join('');
+str = str.split('').reverse().join('');
 console.log(str);
 
 // Задание 9
@@ -63,11 +61,13 @@ let result = [].concat(...numbs6);
 console.log(result);
 
 // Задание 10
-const numbs7 = [1, 2, 3, 4, 5];
-let sum = 0;
+const numbs7 = [1, 2, 3, 4, 5, 8, 7];
 for (let i = 0; i < numbs7.length; i++) {
-    sum +=numbs7[i];
-    console.log(sum);
+        if ( i === numbs7.length - 1) {
+            console.log(numbs7[i]); // Сделал вывод последнего элемента в конце, потому что следующего эллемента не существует и его можно принять за 0.
+            break;
+        }
+        console.log(numbs7[i]+numbs7[i+1]);
 }
 
 // Задание 11
