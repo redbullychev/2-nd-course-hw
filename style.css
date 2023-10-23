@@ -109,9 +109,12 @@ body {
 }
 
 .seasons {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   height: 800px;
+  padding-top: 233px;
+  row-gap: 16px;
 }
 .seasons_text {
   display: flex;
@@ -126,7 +129,6 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-top: 282px;
 }
 .seasons_text_discription {
   color: #FFF;
@@ -157,9 +159,65 @@ body {
   justify-content: center;
 }
 .seasons_image {
-  padding-top: 233px;
+  padding-top: 3px;
   padding-left: 135px;
   padding-bottom: 64px;
+}
+
+.words {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  row-gap: 16px;
+  padding-top: 239px;
+  padding-bottom: 239px;
+}
+.words_image {
+  padding-left: 120px;
+}
+.words_text {
+  width: 588px;
+  padding-left: 135px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 43px;
+}
+.words_text_title {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.words_text_discription {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 177.778% */
+}
+.words_text_button {
+  border-radius: 30px;
+  background: #9C0332;
+  border: 1px solid #9C0332;
+  width: 234.063px;
+  height: 48.603px;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.words_text_button_link {
+  color: #FFF;
+  text-decoration: none;
+  height: 48.603px;
+  cursor: url("images/cours.svg"), auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 700px) {
@@ -242,6 +300,8 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     flex-direction: column;
+    padding-top: 51px;
+    row-gap: 0px;
   }
   .seasons_text {
     display: flex;
@@ -251,7 +311,6 @@ body {
     width: 343px;
   }
   .seasons_text_title {
-    padding-top: 64px;
     color: #FFF;
     text-align: center;
     font-size: 32px;
@@ -274,5 +333,39 @@ body {
     padding-top: 64px;
     padding-bottom: 85px;
     justify-content: center;
+  }
+  .words {
+    display: flex;
+    height: 653px;
+    padding-bottom: 90px;
+    justify-content: center;
+  }
+  .words_text {
+    width: 343px;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .words_text_title {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .words_text_discription {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+  }
+  .words_image {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 48px;
   }
 }/*# sourceMappingURL=style.css.map */
