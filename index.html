@@ -40,7 +40,7 @@
         </div>
         <div class="game_content img3">
             <div class="game_name">Игра 3</div>
-            <a class="game_image" href="#"><picture>
+            <a class="game_image" href="#puzzles"><picture>
                 <source srcset="images/mgame3.png" media="(max-width: 700px)" alt="Игра 3">
                 <img src="images/game3.png" alt="Игра 3">
             </picture></a>
@@ -52,7 +52,7 @@
             <h1 class="seasons_text_title"> Времена года! </h1>
             <p class="seasons_text_discription"> Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится </p>
             <button type="submit" class="seasons_text_button" onclick="seasons()">
-                <a class="seasons_text_button_link" >Играть!</a>
+                <p class="seasons_text_button_link" >Играть!</p>
             </button>
         </div>
         <div class="seasons_image">
@@ -74,10 +74,23 @@
             <h1 class="words_text_title"> Запомни слова </h1>
             <p class="words_text_discription"> При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить. </p>
             <button type="submit" class="words_text_button" onclick="words()">
-                <a class="words_text_button_link" >Играть!</a>
+                <p class="words_text_button_link" >Играть!</p>
             </button>
         </div>
     </div>
+    <div class="puzzles center">
+        <a name="puzzles"></a>
+        <div class="puzzles_text">
+            <h1 class="puzzles_text_title">Игра в загадки</h1>
+            <p class="puzzles_text_discription">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <button type="submit" class="puzzles_text_button" onclick="words()">
+                <p class="puzzles_text_button_link" >Играть!</p>
+            </button>
+        </div>
+    </div>
+    <footer class="footer center">
+        <p class="footer_text">Все права защищены</p>
+    </footer>
     <script src="seasons.js"></script>
     <script src="words.js"></script> 
 </body>
