@@ -53,8 +53,8 @@ console.log(dateNow);
 
 // Задание 9 
 let currentDate = new Date();
-currentDate.setDate(73);
-console.log(currentDate.getDate());
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate);
 
 // Задание 10
 const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
