@@ -220,4 +220,75 @@ body{
     }
 }
 
+.puzzles{
+    background-image: url(images/puzzlesback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    &_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        padding-top: 276px;
+        &_title{
+            color: #FFF;
+            text-align: center;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_discription{
+            padding-left: 120px;
+            padding-right: 120px;
+            color: #FFF;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px; /* 177.778% */
+
+        }
+        &_button{
+            border-radius: 30px;
+            background: #9C0332;
+            border: 1px solid #9C0332;
+            width: 234.063px;
+            height: 48.603px;
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            &_link{
+                color: #FFF;
+                text-decoration: none;
+                height: 48.603px;
+                cursor: url("images/cours.svg"), auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }    
+        
+    }
+}
+
+.footer{
+    background-color: #000915;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_text{
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
 @import 'mobile';

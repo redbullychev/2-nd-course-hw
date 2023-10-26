@@ -220,6 +220,75 @@ body {
   justify-content: center;
 }
 
+.puzzles {
+  background-image: url(images/puzzlesback.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+.puzzles_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding-top: 276px;
+}
+.puzzles_text_title {
+  color: #FFF;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.puzzles_text_discription {
+  padding-left: 120px;
+  padding-right: 120px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 177.778% */
+}
+.puzzles_text_button {
+  border-radius: 30px;
+  background: #9C0332;
+  border: 1px solid #9C0332;
+  width: 234.063px;
+  height: 48.603px;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.puzzles_text_button_link {
+  color: #FFF;
+  text-decoration: none;
+  height: 48.603px;
+  cursor: url("images/cours.svg"), auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #000915;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_text {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 @media (max-width: 700px) {
   .top {
     background-image: url(images/mback.png);
@@ -367,5 +436,26 @@ body {
     justify-content: center;
     padding-left: 0px;
     padding-top: 48px;
+  }
+  .puzzles_text {
+    padding-top: 54px;
+  }
+  .puzzles_text_title {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .puzzles_text_discription {
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
   }
 }/*# sourceMappingURL=style.css.map */

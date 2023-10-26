@@ -147,6 +147,30 @@
         padding-top: 48px;
     }
 }
+.puzzles{
+
+    &_text{
+        padding-top: 54px;
+        &_title{
+            color: #FFF;
+            text-align: center;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_discription{
+            padding-left: 16px;
+            padding-right: 16px;
+            color: #FFF;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px; /* 157.143% */
+        }
+    }
+}
 }
 
 
