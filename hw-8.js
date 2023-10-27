@@ -84,7 +84,6 @@ function sayHi (name) {
     console.log(`Привет, ${name}!`);
 }
 
-// Код выше менять нельзя
 
 // Нужно изменить код ниже:
 delayForSecond(() => sayHi('Глеб'));
